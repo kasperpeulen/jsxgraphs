@@ -5,7 +5,6 @@ var board = JXG.JSXGraph.initBoard("jxg3826", {
 board.create('functiongraph',
   function (x) { return Math.log(x); }, {
     strokeColor: Color.blue,
-    withLabel: true,
     label: {
       strokeColor: Color.blue,
     },
@@ -16,11 +15,22 @@ board.create('functiongraph',
 board.create('functiongraph',
   function (x) { return 1/x; }, {
     strokeColor: Color.red,
-    withLabel: true,
     label: {
       position: 'top',
+      offset: [-70,-20],
       strokeColor: Color.red,
     },
     name: tex('f\'(x)=\\frac{1}{x}'),
+  }
+);
+
+board.create('functiongraph',
+  function (x) { return Math.exp(x); }, {
+    strokeColor: Color.green,
+    label: {
+      position: 'top',
+      strokeColor: Color.green,
+    },
+    name: tex('g(x)=e(x)=g\'(x)'),
   }
 );

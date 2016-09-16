@@ -32,7 +32,8 @@ JXG.Options = JXG.merge(JXG.Options, {
   },
   curve: {
     strokeColor: Color.blue,
-    strokeWidth: 2
+    strokeWidth: 2,
+    withLabel: true
   }
 });
 
