@@ -1,0 +1,21 @@
+{
+  "name": "jsxgraphs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasperpeulen/jsxgraphs.git"
+  },
+  "author": "Kasper Peulen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasperpeulen/jsxgraphs/issues"
+  },
+  "homepage": "https://github.com/kasperpeulen/jsxgraphs#readme",
+  "dependencies": {
+    "jsxgraph": "^0.99.5"
+  }
+}

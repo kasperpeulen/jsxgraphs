@@ -17,7 +17,7 @@ board.create('functiongraph',
     strokeColor: Color.red,
     label: {
       position: 'top',
-      offset: [-70,-20],
+      offset: [-80,-20],
       strokeColor: Color.red,
     },
     name: tex('f\'(x)=\\frac{1}{x}'),

@@ -38,7 +38,7 @@ JXG.Options = JXG.merge(JXG.Options, {
 });
 
 function tex(s) {
-  return '\\\(' + s + '\\\)';
+  return '\\\[' + s + '\\\]';
 }
 
 function tex2(s) {
